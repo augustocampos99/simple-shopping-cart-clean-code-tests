@@ -12,7 +12,10 @@
 
   <ItemGroup>
     <Folder Include="Mapper\" />
-    <Folder Include="Contracts\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ShoppingCart.Infrastructure\ShoppingCart.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>
